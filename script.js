@@ -46,7 +46,7 @@ function detalhesCriptomoeda(criptomoeda) {
 
 function filtrarCriptomoedas() {
     const criterioSelecionado = filtro.value;
-    let criptomoedasFiltradas = todasCriptomoedas;
+    let criptomoedasFiltradas = [...todasCriptomoedas];
 
     if (criterioSelecionado === 'maior-preco') {
         criptomoedasFiltradas.sort((a, b) => b.current_price - a.current_price);
