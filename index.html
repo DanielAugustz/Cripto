@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Criptomoedas</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Criptomoedas</h1>
+        <div class="filtros">
+            <input type="text" id="procurar" placeholder="Buscar Criptomoeda..." />
+            <select id="filtro">
+                <option value="">Rank</option>
+                <option value="maior-preco">Maior Preço</option>
+                <option value="menor-preco">Menor Preço</option>
+                <option value="subida-24h">Subida 24h</option>
+                <option value="queda-24h">Queda 24h</option>
+            </select>
+        </div>
+    </header>
+    <main>
+        <section id="lista-criptomoedas" class="container-criptomoedas"></section>
+        <section id="favoritas" class="favoritas esconder">
+            <h2>Favoritas</h2>
+            <ul id="lista-favoritas"></ul>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>

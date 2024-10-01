@@ -1,0 +1,121 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #e9ecef;
+    color: #343a40;
+}
+
+header {
+    background-color: #b49d2d;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 4px solid #535353;
+}
+
+h1 {
+    margin: 0;
+}
+
+.filtros {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+select, #search-bar {
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 12px;
+}
+
+#search-bar {
+    width: 250px;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.container-criptomoedas {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    max-width: 1000px; 
+}
+
+.criptomoeda {
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 220px;
+    text-align: center;
+}
+
+.criptomoeda:hover {
+    transform: translateY(-5px);
+}
+
+.imagem-criptomoeda {
+    width: 80px;
+    height: 80px;
+}
+
+button {
+    background-color: #d0b632;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+button:hover{
+    background-color: #978424;
+}
+
+
+.esconder {
+    display: none;
+}
+
+.favoritas {
+    margin-left: 20px;
+    width: 125px;
+}
+.favoritas h2{
+    text-align: center;
+}
+.favoritas ul {
+    list-style: none;
+    padding: 10px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.favoritas img{
+    width: 60px;
+    height: 60px; 
+}
+
+.favoritas button {
+    background-color: #dc3545;
+    margin-left: 5px;
+}
+
+.favoritas button:hover {
+    background-color: #bd2130;
+}
